@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/drawable/selector_recyclerview.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/activity_bolt_sale.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/activity_boltssales_list.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/activity_control.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/activity_gas_sale.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/activity_gassales_list.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/activity_oilsales_list.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/activity_powersawsales_list.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/activity_spannersales_list.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/activity_sparesales_list.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/activity_weldingsales_list.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/item_bolt_recycler.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/item_boltsale_recycler.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/item_employee_recycler.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/item_gassale_recycler.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/item_oil_recycler.xml" value="0.9" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/item_oilsale_recycler.xml" value="0.22" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/item_powersawsale_recycler.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/item_spare_recycler.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/item_user_recycler.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/item_weldingsale_recycler.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Katharaka/app/src/main/res/layout/kimemia_fragment.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

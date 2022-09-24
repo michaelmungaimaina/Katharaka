@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="mich.gwan.katharaka">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.FORCE_ENABLE_SCOPED_STORAGE"/>
+    <uses-permission android:name="android.permission.ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/serensa_logo"
+        android:label="Katharaka"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        tools:targetApi="31" >
+        <activity
+            android:name=".splash.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.admin.ControlActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.UsersListActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.oil.OilRegister"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.spare.SpareRegister"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.powersaw.PowersawRegister"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.spanner.SpannerRegister"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.welding.WeldingRegister"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.bolt.BoltRegister"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.gas.GasRegister"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.oil.OilsListActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.spare.SparesListActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.powersaw.PowersawListActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.spanner.SpannerListActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.welding.WeldingListActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.bolt.BoltListActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.gas.GasListActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.oil.OilSaleListActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.spare.SpareSaleListActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.powersaw.PowersawSaleListActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.spanner.SpannerSaleListActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.welding.WeldingSaleListActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.bolt.BoltSaleListActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.gas.GasSaleListActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.oil.OilActionSale"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.spare.SpareActionSale"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.powersaw.PowersawActionSale"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.spanner.SpannerActionSale"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.welding.WeldingActionSale"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.bolt.BoltActionSale"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.gas.GasActionSale"
+            android:screenOrientation="fullSensor" />
+
+        <activity
+            android:name=".petty.PettyTransActivity"
+            android:screenOrientation="fullSensor" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+    </application>
+
+</manifest>

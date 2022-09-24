@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    tools:context=".activities.kithimu.gas.GasActionSale">
+
+    <!--  This is the main content -->
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedsrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#50173B"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/serensa_logo" />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/layGasSaleCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    app:boxStrokeColor="#090000"
+                    app:boxStrokeWidthFocused="5dp">
+
+                    <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:prompt="@string/action_settings"
+                        android:popupBackground="#AC6C95"
+                        android:drawSelectorOnTop="true"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/layGasSaleQnty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <EditText
+                        android:id="@+id/editGasSaleQnty"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#03FFFFFF"
+                        android:ems="10"
+                        android:textColor="@color/white"
+                        android:hint="Quantity"
+                        android:inputType="number"
+                        android:textAlignment="center" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="0dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="1dp"
+                        app:cardBackgroundColor="#334DF1"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="15dp">
+
+                        <TextView
+                            android:id="@+id/txtGasSaleClear"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="CLEAR"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textColor="#290707"
+                            android:textSize="15sp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="100dp"
+                        app:cardBackgroundColor="#CB128805"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="15dp">
+
+                        <TextView
+                            android:id="@+id/txtGasSale"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="SALE"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textColor="#290707"
+                            android:textSize="15sp" />
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </FrameLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!--  This is the title label -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="#50173B"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/iconBack"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                app:srcCompat="@drawable/android_icon" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=" New Gas Sale "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="20dp"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

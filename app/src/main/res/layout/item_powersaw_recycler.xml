@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    android:background="@drawable/selector_recyclerview"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingTop="0dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/id"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="1dp"
+            app:cardBackgroundColor="#02334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintEnd_toStartOf="@+id/category"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/textPowersawId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:gravity="left"
+                android:text="Pwr ID"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#290707"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/category"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="10dp"
+            app:cardBackgroundColor="#03334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintEnd_toStartOf="@+id/quantity"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/id">
+
+            <TextView
+                android:id="@+id/textPowersawCtgry"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="Category"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#290707"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/quantity"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            app:cardBackgroundColor="#00334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintEnd_toStartOf="@+id/bp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/category">
+
+            <TextView
+                android:id="@+id/textPowersawQnty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:text="Quantity"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#290707"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/bp"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            app:cardBackgroundColor="#05334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintEnd_toStartOf="@+id/sp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/quantity">
+
+            <TextView
+                android:id="@+id/textPowersawBp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="2dp"
+                android:gravity="right"
+                android:text="Buying Price"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#290707"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sp"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            app:cardBackgroundColor="#00334DF1"
+            app:layout_constrainedWidth="true"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/bp">
+
+            <TextView
+                android:id="@+id/textPowersawSp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:layout_marginEnd="6dp"
+                android:text="Selling Price"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#290707"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>

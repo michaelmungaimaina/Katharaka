@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#413e4f</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorTextHint">#51d8c7</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="teal_700">#00796B</color>
+    <color name="splash">#062687</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="purple_700">#7B1FA2</color>
+    <color name="purple_200">#CE93D8</color>
+    <color name="colorPrimary">#455399</color>
+    <color name="colorPrimaryDark">#455399</color>
+    <color name="colorAccent">#00c6ae</color>
+    <color name="msg_no_notes">#999</color>
+    <color name="hint_enter_note">#89c3c3c3</color>
+    <color name="timestamp">#858585</color>
+    <color name="note_list_text">#232323</color>
+    <color name="register">#2C040E</color>
+    <color name="list">#011B17</color>
+    <color name="sale">#50173B</color>
+    <color name="pressed">#7E1E5315</color>
+    <color name="sale_list">#011B17</color>
+</resources>
